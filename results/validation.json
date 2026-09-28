@@ -1,0 +1,35 @@
+{
+  "n": 39,
+  "full_dofs": 1521,
+  "reduced_dofs": 20,
+  "training_samples": 54,
+  "held_out_samples": 36,
+  "shifted_samples": 12,
+  "numerical_snapshot_rank": 54,
+  "discarded_snapshot_energy_fraction": 2.2260956192929202e-10,
+  "max_held_out_relative_l2_error": 7.879177006922343e-05,
+  "max_shifted_relative_l2_error": 0.014592797373768491,
+  "min_l2_bound_to_error": 1.4763039858879166,
+  "max_qr_direct_residual_difference": 2.7755575615628914e-15,
+  "finest_manufactured_order": 2.001767968996924,
+  "offline_seconds": 0.1924338999669999,
+  "median_full_seconds": 0.0035445187483370924,
+  "median_online_seconds": 6.280416467537482e-05,
+  "timing_repeats": 5,
+  "timing_scope": "Full: assembly+fresh sparse LU; online: reduced solve+QR bounds+mean. Excludes reconstruction and offline work; not an optimized full-order baseline.",
+  "bound_scope": "Reduction error versus this grid's full-order solution. Exact-arithmetic bound; no interval rounding guarantee or continuum-error coverage.",
+  "versions": {
+    "python": "3.14.5",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "checks": {
+    "manufactured_second_order": true,
+    "l2_bounds_cover": true,
+    "energy_bounds_cover": true,
+    "mean_bounds_cover": true,
+    "qr_matches_direct_residual": true,
+    "nested_energy_error_decreases": true
+  }
+}
