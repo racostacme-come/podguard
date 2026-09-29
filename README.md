@@ -184,3 +184,9 @@ Implementation, synthetic data and experiment design were created for this proje
   independent manufactured solution and test tolerances.
 
 MIT licensed. See [CONTRIBUTING.md](CONTRIBUTING.md) for the branch/check workflow.
+
+## Academic paper
+
+Read the [research note (PDF)](paper/paper.pdf), edit the [LaTeX source](paper/paper.tex),
+or follow the [compilation instructions](paper/README.md). The manuscript includes
+methods, measured validation, limitations, and references within five pages.

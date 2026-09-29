@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "pages": 3,
+  "page_limit": 5,
+  "engine": "tectonic",
+  "overfull_boxes": 0,
+  "undefined_references": 0,
+  "inputs_sha256": {
+    "paper/paper.tex": "3a63c5c0ad035873ea5d166f0589cba69c71e1ea2b3627893216aec5981cd9be",
+    "paper/figure.pdf": "75bdfb3b3eb2a0b2ce4216f81277db2b9c68fcf2510db26eb6778922fbea60fb",
+    "paper/plot.py": "e55f6f97ae7468c9571905d704af975434ec83bb2ed88e9267c14bed9b229451",
+    "results/audit.csv": "eb12a22db1d358dcad84405b93b8f24053aa501dd0ec139871d1cf03cca55e1f",
+    "results/convergence.csv": "b49d06775c53bf75066b7ba05cf4bd6bda84143f0df02b6c6eb4fa8d709aa428",
+    "results/field.csv": "6d820a59fb2cd9bfee2632a6d99f234edb5943c115dc5b87e557a231a99e8829",
+    "results/spectrum.csv": "1907ec876d5f0adc13d273eb26f0dd8b93d94980512ce74e26c0f33371859a61",
+    "results/training.csv": "9a8f82b0ad111bc985652c41fd8a74939fa9939593c4a2beeccecf92cbf38b55",
+    "results/validation.json": "4df733cd8d0b541bb3c279e0aba2f189e44e9d1944901563dc3a278291ba21a3"
+  }
+}
